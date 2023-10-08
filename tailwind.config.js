@@ -28,6 +28,7 @@ module.exports = {
         hninecoll: "#FDF1FF",
         hninetest: "#A15AC7",
         hninefooter: "#230428",
+        hninetoggle: "#280A25",
       },
       fontFamily: {
         'KoHo': ['KoHo', "sans-serif"],
