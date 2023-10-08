@@ -118,7 +118,7 @@ const HomeNine = () => {
                 </div>
                 <div className=" space-y-28">
                   <div>
-                    <p className=" lg:text-[40px] md:text-[30px] text-[20px]">
+                    <p className=" lg:text-[40px] md:text-[33px] text-[33px]">
                       Who We Are
                     </p>
                     <p>
