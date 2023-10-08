@@ -112,7 +112,7 @@ const HomeNine = () => {
               <img src={require("../../Assets/HnineGroup2.png")} alt="" />
             </div>
             <div className=" lg:w-2/5 md:w-full w-full grid justify-center lg:mt-28 md:mt-0 mt-0">
-              <div className=" p-16">
+              <div className=" lg:p-16">
                 <div className=" lg:mt-28 ">
                   <p className=" text-[18px]">ABOUT US</p>
                 </div>
@@ -197,7 +197,7 @@ const HomeNine = () => {
           </div>
         </div>
         <div className=" lg:flex md:grid grid lg:justify-between md:justify-center justify-center ">
-          <div className=" w-1/2 grid justify-center ">
+          <div className=" lg:w-1/2 grid justify-center ">
             <div className=" grid justify-center">
               <img
                 className=" "
@@ -325,7 +325,7 @@ const HomeNine = () => {
         </div>
       </div>
 
-      <div className="grid md:px-16 lg:px-28 lg:h-[255px] md:h-[150px] h-[150px] px-8 lg:mt-14 md:mt35 mt-30 mx-auto w-full">
+      <div className="grid md:px-16 lg:px-28 lg:h-[255px] md:h-[200px] h-[200px] px-8 lg:mt-14 md:mt35 mt-30 mx-auto w-full">
         <div className=" text-black mt-10">
           <p className=" lg:text-[20px] md:text-[14px] text-[12px] text-center font-bold">
             Trusted by 4,000+ companies
