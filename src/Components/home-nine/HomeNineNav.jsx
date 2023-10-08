@@ -17,20 +17,6 @@ const HomeNineNav = () => {
 
       <div className="hidden lg:flex md:flex space-x-10">
         <Link
-          to="home"
-          smooth={true}
-          className="text-white cursor-pointer no-underline"
-        >
-          Home
-        </Link>
-        <Link
-          to="about"
-          smooth={true}
-          className="text-white cursor-pointer no-underline"
-        >
-          About
-        </Link>
-        <Link
           to="product"
           smooth={true}
           className="text-white cursor-pointer no-underline"
@@ -38,11 +24,18 @@ const HomeNineNav = () => {
           Product
         </Link>
         <Link
+          to="about"
+          smooth={true}
+          className="text-white cursor-pointer no-underline"
+        >
+          About Us
+        </Link>
+        <Link
           to="contact"
           smooth={true}
           className="text-white cursor-pointer no-underline"
         >
-          Contact
+          Contact Us
         </Link>
       </div>
 
@@ -58,7 +51,7 @@ const HomeNineNav = () => {
       <div className="md:hidden">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="text-black focus:outline-none"
+          className="text-white focus:outline-none"
         >
           <FaHamburger />
         </button>
@@ -89,7 +82,7 @@ const HomeNineNav = () => {
           <div className="mt-4">
             <RouterLink
               to="/login"
-              className="px-4 py-2 bg-heightbtn font-bold rounded-3xl text-white no-underline"
+              className="px-4 py-2 bg-homeSixCol font-bold rounded-3xl text-white no-underline"
             >
               Register
             </RouterLink>

@@ -2,33 +2,32 @@ import React from "react";
 
 const HomeNineCard = ({ imageSrc, title1, title2, imageAlt, imageSrcc }) => {
   const cardStyle = {
-    width: "300px",
-    height: "280px",
+    width: "290px",
+    height: "296px",
   };
   return (
-    <div className=" grid justify-center space-y-[-57px] transition-transform hover:scale-105 duration-300 ease-in">
-      <div className=" grid justify-center relative mt-[-40px]">
+    <div className="grid transition-transform hover:scale-105 duration-300 ease-in">
+      <div className=" grid justify-center relative lg:top-10 md:top-10 top-10 z-10 items-center">
         <img
-          className=" rounded-t-lg w-[70px] h-[70px] top-[75px] relative z-10"
+          className="rounded-t-lg w-[70px] h-[70px]  "
           src={imageSrc}
           alt={imageAlt}
         />
       </div>
       <div
         style={cardStyle}
-        className="card bg-white shadow-lg overflow-hidden z-0 py-8 m-4  grid items-center  rounded-lg px-3  "
+        className="card bg-white shadow-lg w-[290px] h-[296px] grid justify-center items-center overflow-hidden rounded-lg px-3 "
       >
-        <div className="grid justify-center">
+        <div className="grid justify-center items-center">
           <h4 className="mt-3 text-black text-center font-bold">{title1}</h4>
 
-          <div className="">
-            <p className=" text-black">{title2}</p>
-          </div>
+          <p className="text-black text-center">{title2}</p>
         </div>
       </div>
-      <div className="grid justify-center">
+
+      <div className=" grid justify-center items-end relative lg:bottom-6 md:bottom-6 bottom-6">
         <img
-          className=" rounded-t-lg w-[70px] h-[35px] relative z-10 "
+          className="rounded-t-lg w-[70px] h-[35px]"
           src={imageSrcc}
           alt={imageAlt}
         />

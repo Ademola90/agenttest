@@ -26,6 +26,8 @@ module.exports = {
         heightbtn: " #2F75FD",
         hninecol: "#FDAA0B",
         hninecoll: "#FDF1FF",
+        hninetest: "#A15AC7",
+        hninefooter: "#230428",
       },
       fontFamily: {
         'KoHo': ['KoHo', "sans-serif"],
