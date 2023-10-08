@@ -104,6 +104,8 @@ const HomeNine = () => {
         </div>
 
         <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
           name="about"
           className="grid md:px-16 lg:px-28 px-8 pb-[24px] lg:mt-14  md:mt35 mt-30 justify-center mx-auto w-full"
         >
@@ -144,7 +146,11 @@ const HomeNine = () => {
         name="product"
         className="md:px-16 justify-center items-center grid lg:px-28 px-8 pb-[24px] z-0 bg-hninecoll lg:mt-8  md:mt35 mt-30 mx-auto w-full h-auto"
       >
-        <div className=" p-20 space-y-20">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          className=" p-20 space-y-20"
+        >
           <div className="grid">
             <div>
               <p className="text-20px">OUR SERVICES</p>
@@ -176,7 +182,11 @@ const HomeNine = () => {
         </div>
       </div>
 
-      <div className="grid md:px-16 lg:px-28 py-10 px-8 lg:mt-14 space-y-16  md:mt35 mt-30 mx-auto w-full">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="3000"
+        className="grid md:px-16 lg:px-28 py-10 px-8 lg:mt-14 space-y-16  md:mt35 mt-30 mx-auto w-full"
+      >
         <div className="grid items-center w-full">
           <div>
             <p className=" lg:text-[20px] md:first-letter:text-[18px] text-[14px]">
@@ -266,7 +276,11 @@ const HomeNine = () => {
         </div>
       </div>
 
-      <div className=" bg-hninetest grid md:px-16 py-10 lg:px-28 px-8 lg:mt-14 md:mt35 mt-30 mx-auto w-full">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="3000"
+        className=" bg-hninetest grid md:px-16 py-10 lg:px-28 px-8 lg:mt-14 md:mt35 mt-30 mx-auto w-full"
+      >
         <div className=" grid justify-center">
           <div className=" grid justify-start">
             <img
@@ -325,7 +339,11 @@ const HomeNine = () => {
         </div>
       </div>
 
-      <div className="grid md:px-16 lg:px-28 lg:h-[255px] md:h-[200px] h-[200px] px-8 lg:mt-14 md:mt35 mt-30 mx-auto w-full">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="3000"
+        className="grid md:px-16 lg:px-28 lg:h-[255px] md:h-[200px] h-[200px] px-8 lg:mt-14 md:mt35 mt-30 mx-auto w-full"
+      >
         <div className=" text-black mt-10">
           <p className=" lg:text-[20px] md:text-[14px] text-[12px] text-center font-bold">
             Trusted by 4,000+ companies
@@ -374,7 +392,11 @@ const HomeNine = () => {
         name="contact"
         className="grid md:px-16 lg:px-28 px-8 lg:mt-14  md:mt35 mt-30 mx-auto w-full bg-hninefooter"
       >
-        <div className=" grid justify-center space-y-8 items-center text-white py-10">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          className=" grid justify-center space-y-8 items-center text-white py-10"
+        >
           <div className=" grid justify-center">
             <p className=" lg:text-[40px] md:text-[36px] text-[24px] font-bold">
               Subscribe to Our Newsletter
@@ -386,7 +408,7 @@ const HomeNine = () => {
           <div className=" flex justify-center items-center relative lg:left-[65px] md:left-[57px] left-[45px]">
             <div>
               <input
-                className=" lg:w-[613px] md:w-[420px] w-[230px] lg:h-[67px] md:h-[47px] h-[37px] lg:px-2 rounded-md"
+                className=" lg:w-[613px] text-black md:w-[420px] w-[230px] lg:h-[67px] md:h-[47px] h-[37px] lg:px-2 rounded-md"
                 type="text"
               />
             </div>
