@@ -77,21 +77,21 @@ const HomeNine = () => {
           <HomeNineNav />
 
           <div className="grid md:px-16 lg:px-28 px-8 pb-[24px] justify-center mx-auto w-full h-screen">
-            <div className=" grid justify-center space-y-[-100px] text-white mt-32">
+            <div className=" grid justify-center space-y-[-120px] text-white mt-32">
               <div className="grid justify-center text-center lg:w-[900px]">
                 <p className=" lg:text-[70px] font-bold md:text-[52px] text-[42px]">
                   Getting Bills Paid without being Frustrated
                 </p>
               </div>
               <div className="grid justify-center text-center">
-                <p className=" w-[400px] ">
+                <p className=" w-[400px] lg:pt-8">
                   In a few clicks, buy data to keep surfing the internet. You
                   can buy whatever size of data plan for whichever network you
                   desire. Get Started!
                 </p>
               </div>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center lg:pt-8">
                 <RouterLink
                   to="/login"
                   className=" bg-white w-[157px] justify-center grid items-center no-underline h-[42px] text-black font-bold rounded-full"
@@ -113,11 +113,11 @@ const HomeNine = () => {
             </div>
             <div className=" lg:w-2/5 md:w-full w-full grid justify-center lg:mt-28 md:mt-0 mt-0">
               <div className=" p-16">
-                <div className=" lg:mt-28">
+                <div className=" lg:mt-28 ">
                   <p className=" text-[18px]">ABOUT US</p>
                 </div>
-                <div className=" space-y-28">
-                  <div>
+                <div className=" lg:space-y-28 space-y-16 md:space-y-16">
+                  <div className="lg:py-0 md:py-3 py-3">
                     <p className=" lg:text-[40px] md:text-[33px] text-[33px]">
                       Who We Are
                     </p>
