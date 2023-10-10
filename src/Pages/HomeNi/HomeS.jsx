@@ -10,6 +10,12 @@ const HomeS = () => {
       >
         Home Nine
       </Link>
+      <Link
+        to="/hometen"
+        className=" bg-blue-700 text-white font-bold px-8 py-2]"
+      >
+        Home Ten
+      </Link>
     </div>
   );
 };

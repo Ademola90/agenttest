@@ -120,7 +120,7 @@ const HomeNine = () => {
                 </div>
                 <div className=" lg:space-y-28 space-y-16 md:space-y-16">
                   <div className="lg:py-0 md:py-3 py-3">
-                    <p className=" lg:text-[40px] md:text-[33px] text-[33px]">
+                    <p className=" font-sansation lg:text-[40px] md:text-[33px] text-[33px]">
                       Who We Are
                     </p>
                     <p>
@@ -153,10 +153,17 @@ const HomeNine = () => {
         >
           <div className="grid">
             <div>
-              <p className="text-20px">OUR SERVICES</p>
+              <p
+                style={{ fontFamily: "Inter, sans-serif" }}
+                className="text-20px"
+              >
+                OUR SERVICES
+              </p>
             </div>
             <div className=" ">
-              <p className="text-[40px] font-bold">What We Do</p>
+              <p className=" font-sansation text-[40px] font-bold">
+                What We Do
+              </p>
             </div>
             <div>
               <img
@@ -189,12 +196,15 @@ const HomeNine = () => {
       >
         <div className="grid items-center w-full">
           <div>
-            <p className=" lg:text-[20px] md:first-letter:text-[18px] text-[14px]">
+            <p
+              style={{ fontFamily: "Inter, sans-serif" }}
+              className=" lg:text-[20px] md:first-letter:text-[18px] text-[14px]"
+            >
               WHY YOU SHOULD CHOOSE US
             </p>
           </div>
           <div>
-            <p className=" lg:text-[48px] md:text-[30px] text-[28px] lg:w-full md:w-full w-[250px]">
+            <p className=" font-sansation lg:text-[48px] md:text-[30px] text-[28px] lg:w-full md:w-full w-[250px]">
               Benefits You Stand To Enjoy With Us
             </p>
           </div>
@@ -344,7 +354,7 @@ const HomeNine = () => {
         data-aos-duration="3000"
         className="grid md:px-16 lg:px-28 lg:h-[255px] md:h-[200px] h-[200px] px-8 lg:mt-14 md:mt35 mt-30 mx-auto w-full"
       >
-        <div className=" text-black mt-10">
+        <div className=" font-sansation text-black mt-10">
           <p className=" lg:text-[20px] md:text-[14px] text-[12px] text-center font-bold">
             Trusted by 4,000+ companies
           </p>
