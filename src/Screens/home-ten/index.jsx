@@ -57,7 +57,7 @@ const HomeTen = () => {
             </p>
           </div>
           <div>
-            <p>
+            <p className="lg:py-0 md:py-0 py-4">
               You can now buy data, airtime, pay electricity bills, Cable TV and
               other payments with ease using HonorWorld.
             </p>
@@ -141,7 +141,7 @@ const HomeTen = () => {
       <div
         data-aos="fade-left"
         data-aos-duration="3000"
-        className="grid md:px-16 lg:px-28 px-8 items-center lg:mt-32  md:mt35 mt-24 justify-center mx-auto w-full"
+        className="grid md:px-16 lg:px-28 px-8 items-center lg:mt-32  md:mt35 mt-12 justify-center mx-auto w-full"
       >
         <div className="grid mt-10">
           <p className=" lg:text-[45px] md:text-[30px] text-[25px] text-center">
@@ -166,13 +166,13 @@ const HomeTen = () => {
         data-aos="fade-right"
         data-aos-duration="3000"
         name="about"
-        className=" lg:flex md:grid grid lg:space-x-8 md:space-y-8 space-y-8 md:px-16 lg:px-28 px-8 items-center lg:mt-32  md:mt35 mt-24 justify-center mx-auto w-full"
+        className=" lg:flex md:grid grid lg:space-x-8 md:space-y-8 space-y-8 md:px-16 lg:px-28 px-8 items-center lg:mt-20  md:mt35 mt-12 justify-center mx-auto w-full"
       >
         <div className=" grid lg:w-1/2 md:w-full w-full">
-          <p className=" text-btncol text-[13px] font-bold">
+          <p className=" text-btncol text-[13px] pb-3 font-bold">
             WE ARE THE BEST SUBSCRIPTION PLATFORM
           </p>
-          <p className="font-bold lg:text-[20px] md:text-[15px] text-[12px]">
+          <p className="font-bold lg:text-[20px] py-4 md:text-[15px] text-[12px]">
             We have the BEST Features For Your Subscriptions. You can trust us
             with your subscriptions.
           </p>
@@ -198,7 +198,7 @@ const HomeTen = () => {
               />
             </div>
             <div className=" grid justify-center">
-              <p className=" lg:text-[20px] md:text-[15px] text-[12px] font-bold">
+              <p className=" text-[20px] lg:py-0 md:py-0 py-4 font-bold">
                 Secure Transactions
               </p>
             </div>
@@ -218,7 +218,7 @@ const HomeTen = () => {
               />
             </div>
             <div className=" grid justify-center">
-              <p className=" lg:text-[20px] md:text-[15px] mt-4 text-[12px] font-bold">
+              <p className=" text-[20px] lg:py-0 md:py-0 py-4 font-bold">
                 24/7 Customer Support
               </p>
             </div>
@@ -240,7 +240,7 @@ const HomeTen = () => {
               />
             </div>
             <div className=" grid justify-center">
-              <p className=" lg:text-[20px] md:text-[15px] mt-4 text-[12px] font-bold">
+              <p className=" text-[20px] lg:py-0 md:py-0 py-4 font-bold">
                 Safe and Convenient
               </p>
             </div>
@@ -262,7 +262,7 @@ const HomeTen = () => {
               />
             </div>
             <div className=" grid justify-center">
-              <p className=" lg:text-[20px] md:text-[15px] text-[12px] font-bold">
+              <p className=" text-[20px] lg:py-0 md:py-0 py-4 font-bold">
                 Awesome Service
               </p>
             </div>
@@ -407,7 +407,7 @@ const HomeTen = () => {
         data-aos-duration="3000"
         className="md:px-16 lg:px-28 px-8 items-center lg:mt-32 md:mt35 mt-24 justify-center mx-auto w-full"
       >
-        <div className=" text-white bg-btncol p-16 rounded-2xl  ">
+        <div className=" text-white bg-btncol lg:p-16 md-p-10 p-8 gap-4 rounded-2xl  ">
           <div className=" grid justify-center items-center">
             <p className=" lg:text-[45px] md:text-[30px] text-[15px] lg:w-[700px] text-center">
               Subscribe to Our Newsletter to stay updated!
@@ -514,7 +514,7 @@ const HomeTen = () => {
             <div className="flex">
               <div className="">
                 <input
-                  className="h-[52px] bg-slate-900 text-white px-2"
+                  className="h-[52px] border-none bg-slate-900 text-white px-2"
                   placeholder="Your email address"
                   type="text"
                 />
