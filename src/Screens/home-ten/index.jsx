@@ -109,7 +109,7 @@ const HomeTen = () => {
             >
               OUR SERVICES
             </p>
-            <div>
+            <div className=" lg:py-0 md:py-0 py-4">
               <p className=" lg:text-[48px] md:text-[25px] text-[22px]">
                 What We Do
               </p>
@@ -131,7 +131,7 @@ const HomeTen = () => {
 
           <RouterLink
             to="/login"
-            className=" transition-transform hover:scale-110 duration-300 ease-in text-white grid justify-center items-center no-underline bg-btncol lg:w-[170px] lg:h-[42px] md:w-[130px] md:h-[38px] w-[120px] h-[30px] rounded-3xl"
+            className=" transition-transform lg:mt-0 md:mt-0 mt-4 hover:scale-110 duration-300 ease-in text-white grid justify-center items-center no-underline bg-btncol lg:w-[170px] lg:h-[42px] md:w-[130px] md:h-[38px] w-[120px] h-[30px] rounded-3xl"
           >
             Get Started
           </RouterLink>
@@ -281,7 +281,7 @@ const HomeTen = () => {
       <div
         data-aos="fade-left"
         data-aos-duration="3000"
-        className=" bg-htentest py-3"
+        className=" lg:bg-htentest md:bg-black bg-black py-3"
       >
         <div className=" lg:flex md:grid grid md:px-16 lg:px-28 px-8 items-center lg:mt-32  md:mt35 mt-24 justify-center mx-auto w-full">
           <div className=" lg:w-2/5 md:w-full w-full grid justify-center items-center p-5">
