@@ -7,7 +7,7 @@ const NavContact = () => {
         <div className=" flex items-center space-x-2">
           <img
             className=" w-[14.65px] h-[19.19px]"
-            src={require("../../assets/Navcontcall.png")}
+            src={require("../../../Assets/Navcontcall.png")}
             alt="contact"
           />
           <p className=" fon-segoe text-white text-[16px]">+234 702 330 3000</p>
@@ -15,7 +15,7 @@ const NavContact = () => {
         <div className=" flex items-center space-x-2">
           <img
             className=" w-[14.65px] h-[19.19px]"
-            src={require("../../assets/Navcontmail.png")}
+            src={require("../../../Assets/Navcontmail.png")}
             alt="contact"
           />
           <p className=" fon-segoe text-white text-[16px]">
@@ -28,22 +28,22 @@ const NavContact = () => {
       <div className="  lg:flex md:flex hidden items-center space-x-4">
         <img
           className=" w-[24px] h-[24px]"
-          src={require("../../assets/Linkedin.png")}
+          src={require("../../../Assets/Linkedin.png")}
           alt=""
         />
         <img
           className=" w-[24px] h-[24px]"
-          src={require("../../assets/Instagram.png")}
+          src={require("../../../Assets/Instagram.png")}
           alt=""
         />
         <img
           className=" w-[24px] h-[24px]"
-          src={require("../../assets/Twitter.png")}
+          src={require("../../../Assets/Twitter.png")}
           alt=""
         />
         <img
           className=" w-[24px] h-[24px]"
-          src={require("../../assets/Facebook.png")}
+          src={require("../../../Assets/Navcontcall.png")}
           alt=""
         />
       </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../navbar/[navbar]";
 import NavContact from "../navbar/[navcontact]";
-import Heroimg from "../../assets/Heroimg.png";
-import Testimonialbg from "../../assets/Testimonialbg.jpg";
-import Cardimg1 from "../../assets/Cardimg1.png";
-import Cardimg2 from "../../assets/Cardimg2.png";
-import Cardimg3 from "../../assets/Cardimg3.png";
-import Cardimg4 from "../../assets/Cardimg4.png";
+import Heroimg from "../../../Assets/Heroimg.png";
+import Testimonialbg from "../../../Assets/Testimonialbg.jpg";
+import Cardimg1 from "../../../Assets/Cardimg1.png";
+import Cardimg2 from "../../../Assets/Cardimg2.png";
+import Cardimg3 from "../../../Assets/Cardimg3.png";
+import Cardimg4 from "../../../Assets/Cardimg4.png";
 
 const Card = ({ imageSrc, text, buttonText }) => {
   return (
@@ -110,7 +110,7 @@ const LandingPage = () => {
               <p>READ MORE</p>
               <img
                 className=" w-[16px] h-[12px]"
-                src={require("../../assets/Landingarrow.png")}
+                src={require("../../../Assets/Landingarrow.png")}
                 alt=""
               />
             </button>
@@ -137,19 +137,19 @@ const LandingPage = () => {
         <div className=" lg:flex md:grid grid justify-center items-center gap-3">
           <div className=" lg:w-1/2 md:w-full w-full grid justify-center items-center lg:p-3">
             <div>
-              <img src={require("../../assets/Firstimg.png")} alt="" />
+              <img src={require("../../../Assets/Firstimg.png")} alt="" />
             </div>
           </div>
           <div className=" lg:w-1/2 md:w-full w-full grid justify-center items-center gap-3">
             <div>
-              <img src={require("../../assets/Frametwo.png")} alt="" />
+              <img src={require("../../../Assets/Frametwo.png")} alt="" />
             </div>
             <div className=" flex justify-center items-center gap-3">
               <div>
-                <img src={require("../../assets/Frame3.png")} alt="" />
+                <img src={require("../../../Assets/Frame3.png")} alt="" />
               </div>
               <div>
-                <img src={require("../../assets/Frame4.png")} alt="" />
+                <img src={require("../../../Assets/Frame4.png")} alt="" />
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@ const LandingPage = () => {
         </div>
         <div className=" lg:w-1/2 md:w-full grid justify-center items-center w-full">
           <div className=" lg:p-3">
-            <img src={require("../../assets/Frame6.png")} alt="" />
+            <img src={require("../../../Assets/Frame6.png")} alt="" />
           </div>
         </div>
       </div>
@@ -195,7 +195,7 @@ const LandingPage = () => {
       <div className="lg:flex md:grid grid justify-center items-center gap-10 px-8 md:px-12 lg:px-20 py-10 mx-auto">
         <div className=" lg:w-1/2 md:w-full w-full grid justify-center items-center">
           <div className=" p-3">
-            <img src={require("../../assets/Frame7.png")} alt="" />
+            <img src={require("../../../Assets/Frame7.png")} alt="" />
           </div>
         </div>
         <div className=" lg:w-1/2 md:w-full w-full space-y-20">
@@ -230,7 +230,7 @@ const LandingPage = () => {
         <div className=" lg:w-1/2 md:full h-full grid space-y-16 justify-center items-center">
           <div className=" flex justify-center items-center space-x-10">
             <div>
-              <img src={require("../../assets/Line24.png")} alt="" />
+              <img src={require("../../../Assets/Line24.png")} alt="" />
             </div>
             <div className="grid space-y-5">
               <div>
@@ -258,7 +258,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className=" lg:w-1/2 md:full full">
-          <img src={require("../../assets/Frame8.png")} alt="" />
+          <img src={require("../../../Assets/Frame8.png")} alt="" />
         </div>
       </div>
 
@@ -290,7 +290,7 @@ const LandingPage = () => {
                       <div>
                         <img
                           className=" w-[100px] h-[100px]"
-                          src={require("../../assets/Testimonialimg.png")}
+                          src={require("../../../Assets/Testimonialimg.png")}
                           alt=""
                         />
                       </div>
@@ -303,7 +303,7 @@ const LandingPage = () => {
                     <div>
                       <img
                         className=" w-auto h-[70px]"
-                        src={require("../../assets/TestimonialLine.png")}
+                        src={require("../../../Assets/TestimonialLine.png")}
                         alt=""
                       />
                     </div>
@@ -323,17 +323,17 @@ const LandingPage = () => {
                 <div className=" flex justify-center gap-3 items-center">
                   <img
                     className=" w-[10px] h-[10px]"
-                    src={require("../../assets/Ellipse3.png")}
+                    src={require("../../../Assets/Ellipse3.png")}
                     alt=""
                   />
                   <img
                     className="w-[10px] h-[10px]"
-                    src={require("../../assets/Ellipse4.png")}
+                    src={require("../../../Assets/Ellipse4.png")}
                     alt=""
                   />
                   <img
                     className="w-[10px] h-[10px]"
-                    src={require("../../assets/Ellipse5.png")}
+                    src={require("../../../Assets/Ellipse5.png")}
                     alt=""
                   />
                 </div>
@@ -363,7 +363,7 @@ const LandingPage = () => {
             <div className=" grid">
               <img
                 className=" h-[170px] w-auto"
-                src={require("../../assets/line.png")}
+                src={require("../../../Assets/line.png")}
                 alt=""
               />
             </div>

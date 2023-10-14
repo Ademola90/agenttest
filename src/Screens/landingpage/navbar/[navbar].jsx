@@ -15,7 +15,7 @@ const Navbar = () => {
           <div>
             <img
               className=" lg:w-[250px] md:w-[200px] w-[160px] lg:h-[47.2px] md:h-[43.2px] h-[42.2px]"
-              src={require("../../assets/Logo.png")}
+              src={require("../../../Assets/Logo.png")}
               alt=""
             />
           </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <button className=" text-[16px] cursor-pointer bg-navbtncol flex items-center py-2 px-2 border-navbtncol transition-transform hover:scale-110 duration-300 ease-in">
               <img
                 className=" w-[24px] h-[24px]"
-                src={require("../../assets/Accicon.png")}
+                src={require("../../../Assets/Accicon.png")}
                 alt=""
               />
               My account
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div>
           <img
             className=" w-full"
-            src={require("../../assets/Navline.png")}
+            src={require("../../../Assets/Navline.png")}
             alt=""
           />
         </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
             >
               <img
                 className=" w-[24px] h-[24px]"
-                src={require("../../assets/Accicon.png")}
+                src={require("../../../Assets/Accicon.png")}
                 alt=""
               />
               My account
@@ -94,22 +94,22 @@ const Navbar = () => {
           <div className="  lg:hidden md:hidden flex w-full justify-center items-center space-x-4">
             <img
               className=" w-[24px] h-[24px]"
-              src={require("../../assets/Linkedin.png")}
+              src={require("../../../Assets/Linkedin.png")}
               alt=""
             />
             <img
               className=" w-[24px] h-[24px]"
-              src={require("../../assets/Instagram.png")}
+              src={require("../../../Assets/Instagram.png")}
               alt=""
             />
             <img
               className=" w-[24px] h-[24px]"
-              src={require("../../assets/Twitter.png")}
+              src={require("../../../Assets/Twitter.png")}
               alt=""
             />
             <img
               className=" w-[24px] h-[24px]"
-              src={require("../../assets/Facebook.png")}
+              src={require("../../../Assets/Navcontcall.png")}
               alt=""
             />
           </div>
