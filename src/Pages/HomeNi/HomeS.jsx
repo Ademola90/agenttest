@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HomeS = () => {
   return (
-    <div>
+    <div className=" grid">
       <Link
         to="/homenine"
         className=" bg-blue-700 text-white font-bold px-8 py-2]"
@@ -15,6 +15,12 @@ const HomeS = () => {
         className=" bg-blue-700 text-white font-bold px-8 py-2]"
       >
         Home Ten
+      </Link>
+      <Link
+        to="/landinpage"
+        className=" bg-blue-700 text-white font-bold px-8 py-2]"
+      >
+        Landing Page
       </Link>
     </div>
   );
